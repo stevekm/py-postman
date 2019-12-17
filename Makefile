@@ -1,6 +1,6 @@
 SHELL:=/bin/bash
 
-# ~~~~~ Python and nextflow installation ~~~~~~ #
+# ~~~~~ Python and Flask installation ~~~~~~ #
 UNAME:=$(shell uname)
 PATH:=$(CURDIR)/conda/bin:$(PATH)
 unexport PYTHONPATH
